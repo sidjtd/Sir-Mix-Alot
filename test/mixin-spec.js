@@ -16,7 +16,7 @@ describe('Model', function() {
     b : String,
     c : Number,
     d : Date
-  }
+  };
   beforeEach(function () {
     model = new Model(testSchema);
   });
